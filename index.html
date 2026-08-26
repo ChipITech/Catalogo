@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>chipIT — Catálogo</title>
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+
+<!-- Vista previa al compartir el link (WhatsApp, Facebook, Instagram, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="chipIT — Catálogo">
+<meta property="og:description" content="Tecnología que conecta contigo. Productos seleccionados, accesorios y componentes con atención personalizada.">
+<meta property="og:image" content="https://chipitech.github.io/chipit-catalogo/assets/img/og-preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="chipIT — Catálogo">
+<meta name="twitter:description" content="Tecnología que conecta contigo. Productos seleccionados, accesorios y componentes con atención personalizada.">
+<meta name="twitter:image" content="https://chipitech.github.io/chipit-catalogo/assets/img/og-preview.jpg">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="top">⚡ CATÁLOGO DIGITAL CHIPIT · <b>TECNOLOGÍA QUE CONECTA CONTIGO</b></div>
+
+<header>
+  <div class="nav">
+    <a class="brand" href="#"><img class="logo" src="assets/img/logo.png" alt="Logo chipIT"></a>
+    <nav class="navlinks">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#beneficios">Nosotros</a>
+      <a href="#beneficios">Garantía</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="share" onclick="shareCatalog()">↗ Compartir catálogo</button>
+  </div>
+</header>
+
+<section class="hero">
+ <div class="hero-inner">
+  <div>
+   <div class="eyebrow">Catálogo · Agosto 2026</div>
+   <h1>Tecnología que <span>conecta</span> contigo</h1>
+   <p>Encuentra productos tecnológicos seleccionados, accesorios y componentes con información clara, atención personalizada y el respaldo de chipIT.</p>
+   <div class="hero-buttons">
+    <a class="btn btn-orange" href="#catalogo">Ver catálogo ↓</a>
+    <a class="btn btn-green" id="heroWa" target="_blank">💬 WhatsApp</a>
+   </div>
+  </div>
+  <div class="hero-card">
+   <span class="badge b1">✓ Productos seleccionados</span>
+   <img class="hero-logo" src="assets/img/logo.png" alt="chipIT">
+   <span class="badge b2">⌁ Tu tienda tech</span>
+  </div>
+ </div>
+</section>
+
+<section class="ml-banner">
+ <div class="ml-inner">
+  <div class="ml-icon">🛍️</div>
+  <div class="ml-text">
+   <span class="ml-eyebrow">Otra forma de comprar</span>
+   <h3>También estamos en Mercado Libre</h3>
+   <p>También puedes encontrar y comprar nuestros productos directo desde Mercado Libre. Allí encontrarás precios un poco más elevados, pero con la misma calidad de entrega y compromiso.</p>
+  </div>
+  <a class="btn btn-ml" id="mlBtn" href="#" target="_blank" rel="noopener">Ver tienda en Mercado Libre ↗</a>
+ </div>
+</section>
+
+<section class="catalog" id="catalogo">
+ <div class="section-title">
+  <div><h2>Productos destacados</h2><div class="sub">Encuentra lo que necesitas y cotiza directamente por WhatsApp.</div></div>
+  <div class="sub" id="count"></div>
+ </div>
+ <div class="tools">
+  <div class="search">
+  <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="2.2"/>
+    <path d="M16 16L21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+  </svg>
+  <input id="search" placeholder="Buscar producto, marca o especificación...">
+</div>
+  <select id="cat"><option value="all">Todas las categorías</option></select>
+  <select id="sort"><option value="new">Destacados</option><option value="low">Precio menor</option><option value="high">Precio mayor</option><option value="az">Nombre A-Z</option></select>
+ </div>
+ <div class="grid" id="grid"></div>
+</section>
+
+<section class="catalog seminuevos" id="seminuevos">
+ <div class="section-title">
+  <div><h2>Productos Seminuevos <span class="badge-used">Seminuevo</span></h2><div class="sub">Equipos revisados, con la misma atención y respaldo de siempre a un mejor precio.</div></div>
+ </div>
+ <div class="grid" id="gridSeminuevos"></div>
+</section>
+
+<section class="features" id="beneficios">
+ <div class="features-inner">
+  <div class="feature">💬 <strong>Atención personalizada</strong><span>Te asesoramos para que elijas lo mejor para ti.</span></div>
+  <div class="feature">🛡️ <strong>Compra segura</strong><span>Información clara y acompañamiento durante tu compra.</span></div>
+  <div class="feature">✦ <strong>Productos seleccionados</strong><span>Trabajamos con productos y marcas confiables.</span></div>
+  <div class="feature">✓ <strong>Garantía real</strong><span>Consulta las condiciones de garantía de cada producto.</span></div>
+ </div>
+</section>
+
+<footer id="contacto">
+ <div class="foot">
+  <div><div class="brand"><img class="logo" src="assets/img/logo.png" alt="chipIT"></div><div class="small">Tecnología, accesorios y soluciones.</div></div>
+  <div class="small">© 2026 chipIT · Precios sujetos a disponibilidad.</div>
+ </div>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mn">
+ <div class="box">
+  <button class="close" onclick="closeModal()" aria-label="Cerrar">×</button>
+  <div class="micon" id="mi"></div>
+  <h3 id="mn"></h3><p id="ms"></p><div class="mprice" id="mp"></div>
+  <a class="btn btn-green" id="mw" target="_blank">💬 Consultar por WhatsApp</a>
+ </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Cargador UGREEN 65W USB-C GaN",
+    "cat": "Cargadores",
+    "brand": "UGREEN",
+    "spec": "Carga rápida para laptops, tablets y smartphones.",
+    "price": 129900,
+    "stock": 5,
+    "condicion": "Nuevo",
+    "icon": "🔌",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Cable UGREEN USB-C a USB-C 100W 1m",
+    "cat": "Cables",
+    "brand": "UGREEN",
+    "spec": "Carga rápida y transferencia de datos de alta velocidad.",
+    "price": 34900,
+    "stock": 6,
+    "condicion": "Nuevo",
+    "icon": "🔗",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "Audífonos Inalámbricos Bluetooth 5.3",
+    "cat": "Audio",
+    "brand": "chipIT",
+    "spec": "Sonido estéreo, conexión estable y larga duración.",
+    "price": 89900,
+    "stock": 6,
+    "condicion": "Nuevo",
+    "icon": "🎧",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "Power Bank 20000mAh Carga Rápida",
+    "cat": "Accesorios",
+    "brand": "chipIT",
+    "spec": "Carga rápida doble puerto USB y USB-C.",
+    "price": 79900,
+    "stock": 1,
+    "condicion": "Nuevo",
+    "icon": "🔋",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "Base Ajustable para Laptop de Aluminio",
+    "cat": "Accesorios",
+    "brand": "chipIT",
+    "spec": "Ergonómica, plegable y antideslizante.",
+    "price": 59900,
+    "stock": 0,
+    "condicion": "Nuevo",
+    "icon": "💻",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "name": "Mouse Inalámbrico Logitech M280",
+    "cat": "Periféricos",
+    "brand": "Logitech",
+    "spec": "Cómodo, preciso y con larga duración de batería.",
+    "price": 69900,
+    "stock": 4,
+    "condicion": "Nuevo",
+    "icon": "🖱️",
+    "image": ""
+  },
+  {
+    "id": 7,
+    "name": "SSD Kingston NV2 500GB M.2 NVMe",
+    "cat": "Almacenamiento",
+    "brand": "Kingston",
+    "spec": "Velocidad ultrarrápida para mejorar rendimiento.",
+    "price": 199900,
+    "stock": 3,
+    "condicion": "Nuevo",
+    "icon": "💾",
+    "image": ""
+  },
+  {
+    "id": 8,
+    "name": "Teclado Mecánico RGB — Blue Switch",
+    "cat": "Periféricos",
+    "brand": "chipIT",
+    "spec": "Retroiluminado, resistente y con gran respuesta.",
+    "price": 159900,
+    "stock": 2,
+    "condicion": "Nuevo",
+    "icon": "⌨️",
+    "image": ""
+  },
+  {
+    "id": 9,
+    "name": "Laptop Lenovo ThinkPad T480 (usada)",
+    "cat": "Cómputo",
+    "brand": "Lenovo",
+    "spec": "Revisada y probada. Ideal para oficina y estudio.",
+    "price": 1099900,
+    "stock": 2,
+    "condicion": "Seminuevo",
+    "icon": "💻",
+    "image": ""
+  }
+]
