@@ -10,5 +10,5 @@
  * archivo local data/products.json.
  */
 const CONFIG = {
-  SHEET_API_URL: "" // Ej: "https://script.google.com/macros/s/AKfycb.../exec"
+  SHEET_API_URL: "https://script.google.com/macros/s/AKfycbyLBtsq42Ngf0zab0lqSiZq14NrWd-3L4VJtcVZYHGIoxa9KI2NyaG2BmoUZ6-1VP01Rw/exec"
 };
