@@ -178,7 +178,7 @@ function openView(id) {
   if (!p) return;
   const out = isOut(p);
   $("#dm").innerHTML = `<button class="x" type="button" data-close aria-label="Cerrar">×</button>
-  <div class="media"><div class="art" style="width:70%;height:70%;margin-top:0">${artHtml(p)}</div></div>
+  <div class="media"><div class="art" style="width:92%;height:92%">${artHtml(p)}</div></div>
   <div class="m-body">
     <div style="color:var(--steel);font-weight:600">${esc(p.cat)}${p.brand ? " · " + esc(p.brand) : ""}</div>
     <h3 id="dn">${esc(p.name)}</h3>
