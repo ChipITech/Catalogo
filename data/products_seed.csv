@@ -1,10 +1,16 @@
-id,name,cat,brand,spec,price,stock,condicion,icon,image
-1,Cargador UGREEN 65W USB-C GaN,Cargadores,UGREEN,"Carga rápida para laptops, tablets y smartphones.",129900,5,Nuevo,🔌,
-2,Cable UGREEN USB-C a USB-C 100W 1m,Cables,UGREEN,Carga rápida y transferencia de datos de alta velocidad.,34900,6,Nuevo,🔗,
-3,Audífonos Inalámbricos Bluetooth 5.3,Audio,chipIT,"Sonido estéreo, conexión estable y larga duración.",89900,6,Nuevo,🎧,
-4,Power Bank 20000mAh Carga Rápida,Accesorios,chipIT,Carga rápida doble puerto USB y USB-C.,79900,1,Nuevo,🔋,
-5,Base Ajustable para Laptop de Aluminio,Accesorios,chipIT,"Ergonómica, plegable y antideslizante.",59900,0,Nuevo,💻,
-6,Mouse Inalámbrico Logitech M280,Periféricos,Logitech,"Cómodo, preciso y con larga duración de batería.",69900,4,Nuevo,🖱️,
-7,SSD Kingston NV2 500GB M.2 NVMe,Almacenamiento,Kingston,Velocidad ultrarrápida para mejorar rendimiento.,199900,3,Nuevo,💾,
-8,Teclado Mecánico RGB — Blue Switch,Periféricos,chipIT,"Retroiluminado, resistente y con gran respuesta.",159900,2,Nuevo,⌨️,
-9,Laptop Lenovo ThinkPad T480 (usada),Cómputo,Lenovo,"Revisada y probada. Ideal para oficina y estudio.",1099900,2,Seminuevo,💻,
+id,name,cat,brand,spec,price,stock,condicion,fecha,image
+1,Cargador UGREEN 65W USB-C GaN,Cargadores,UGREEN,"Carga rápida para laptops, tablets y smartphones.",150000,0,Nuevo,,
+2,Cargador UGREEN 65W USB-C Blanco,Cargadores,UGREEN,Carga rápida doble puerto USB-C y USB.,120000,0,Nuevo,,
+3,Cargador UGREEN 30W USB-C GaN,Cargadores,UGREEN,Carga rápida para tablets y smartphones.,100000,3,Nuevo,,
+4,Cargador UGREEN 65W Nexode GaN,Cargadores,UGREEN,"Carga rápida para laptops, tablets y smartphones.",150000,4,Nuevo,,
+5,Cable UGREEN USB-C 100W Led 1M,Cables,UGREEN,Carga rápida y transferencia de datos de alta velocidad.,50000,2,Nuevo,,
+6,Cable UGREEN USB-C 60W 1M,Cables,UGREEN,Carga rápida y transferencia de datos de alta velocidad.,30000,4,Nuevo,,
+7,Cable UGREEN USB-C Blanco 100W 1M,Cables,UGREEN,Carga rápida y transferencia de datos de alta velocidad.,40000,1,Nuevo,,
+8,Cable UGREEN USB-C 240W 0.5M,Cables,UGREEN,Carga rápida y transferencia de datos de alta velocidad.,20000,1,Nuevo,,
+9,Cable UGREEN USB-C 100W / 90 Grados / 1M,Cables,UGREEN,Carga rápida y transferencia de datos de alta velocidad.,40000,2,Nuevo,,
+10,Cable Baseus Lightning 20W / 1M,Cables,BASEUS,Carga rápida y transferencia de datos de alta velocidad.,40000,4,Nuevo,,
+11,"Cable Baseus Ultra Slim Lightning 30W / 1,2M",Cables,BASEUS,Carga rápida y transferencia de datos de alta velocidad.,50000,2,Nuevo,,
+12,Teclado Ergonomico Logitech K120,Teclados,LOGITECH,"Teclas antidecoloración, patas inclinables.
+Estado: Perfecto",35000,3,Seminuevo,,
+13,"Monitor MP-22"" OneScreen",Monitores,ONESCREEN,"Monitor con puerto HDMI y resolucion 1080p.
+Estado: Perfecto",220000,1,Seminuevo,,

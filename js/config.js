@@ -1,14 +1,22 @@
 /**
- * Configuración de conexión a Google Sheets para el catálogo chipIT.
- *
- * 1. Sigue los pasos de apps-script/Code.gs y del README para desplegar
- *    tu Apps Script como "Aplicación web".
- * 2. Pega aquí la URL que te da Google (termina en /exec).
- * 3. Guarda este archivo y sube el cambio a GitHub — no necesitas tocar nada más.
- *
- * Si dejas SHEET_API_URL vacío (""), el catálogo funciona igual usando el
- * archivo local data/products.json.
+ * Configuración del catálogo ChipIT.
+ * Es el único archivo que necesitas tocar para cambiar datos de contacto o reglas.
  */
 const CONFIG = {
-  SHEET_API_URL: "https://script.google.com/macros/s/AKfycbyLBtsq42Ngf0zab0lqSiZq14NrWd-3L4VJtcVZYHGIoxa9KI2NyaG2BmoUZ6-1VP01Rw/exec"
+  // URL de tu Google Apps Script (termina en /exec). Si la dejas vacía ("")
+  // el catálogo usa el archivo local data/products.json.
+  SHEET_API_URL: "https://script.google.com/macros/s/AKfycbyLBtsq42Ngf0zab0lqSiZq14NrWd-3L4VJtcVZYHGIoxa9KI2NyaG2BmoUZ6-1VP01Rw/exec",
+
+  // WhatsApp con indicativo de país, sin + ni espacios.
+  WHATSAPP: "573176274048",
+  WHATSAPP_LABEL: "+57 317 627 4048",
+
+  // Tu tienda en Mercado Libre.
+  MERCADOLIBRE_URL: "https://listado.mercadolibre.com.co/_CustId_588678241",
+
+  // Un producto muestra la etiqueta "Nuevo" durante estos días desde su fecha de ingreso.
+  NEW_DAYS: 15,
+
+  // Con esta cantidad o menos se muestra "Quedan pocas unidades".
+  LOW_STOCK: 3
 };

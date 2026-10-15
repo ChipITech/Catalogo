@@ -3,14 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ChipIT</title>
+<title>ChipIT — Catálogo</title>
+<meta name="description" content="Tecnología que conecta contigo. Cargadores, cables y equipos seleccionados con atención personalizada.">
+<meta name="theme-color" content="#172E48">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
-<link rel="apple-touch-icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/icon.png">
 
 <!-- Vista previa al compartir el link (WhatsApp, Facebook, Instagram, etc.) -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://chipitech.github.io/Catalogo/">
-<meta property="og:title" content="chipIT — Catálogo">
+<meta property="og:title" content="ChipIT — Catálogo">
 <meta property="og:description" content="Tecnología que conecta contigo. Productos seleccionados, accesorios y componentes con atención personalizada.">
 <meta property="og:image" content="https://chipitech.github.io/Catalogo/assets/img/og-preview.jpg">
 <meta property="og:image:width" content="1200">
@@ -19,106 +21,112 @@
 <meta name="twitter:title" content="ChipIT — Catálogo">
 <meta name="twitter:description" content="Tecnología que conecta contigo. Productos seleccionados, accesorios y componentes con atención personalizada.">
 <meta name="twitter:image" content="https://chipitech.github.io/Catalogo/assets/img/og-preview.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Figtree:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<div class="bar"><div class="wrap"><span>Cotiza directo por WhatsApp</span><span>·</span><b>Tecnología que conecta contigo</b></div></div>
 
-<div class="top">⚡ CATÁLOGO DIGITAL CHIPIT · <b>TECNOLOGÍA QUE CONECTA CONTIGO</b></div>
-
-<header>
-  <div class="nav">
-    <a class="brand" href="#"><img class="logo" src="assets/img/logo.png" alt="Logo chipIT"></a>
-    <nav class="navlinks">
-      <a href="#catalogo">Catálogo</a>
-      <a href="#beneficios">Nosotros</a>
-      <a href="#beneficios">Garantía</a>
-      <a href="#contacto">Contacto</a>
+<header id="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="ChipIT, inicio"><img src="assets/img/icon.png" alt="" width="44" height="44">ChipIT</a>
+    <nav class="links" aria-label="Principal">
+      <a href="#catalogo">Catálogo</a><a href="#seminuevos">Seminuevos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
     </nav>
-    <button class="share" onclick="shareCatalog()">↗ Compartir catálogo</button>
+    <div class="nav-r">
+      <span class="fav-count" id="favBox" title="Productos que marcaste"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><b id="favN">0</b></span>
+      <button class="pill-btn pill-cream" id="share" type="button">↗ <span>Compartir</span></button>
+    </div>
   </div>
 </header>
 
-<section class="hero">
- <div class="hero-inner">
-  <div>
-   <div class="eyebrow">Catálogo · Agosto 2026</div>
-   <h1>Tecnología que <span>conecta</span> contigo</h1>
-   <p>Encuentra productos tecnológicos seleccionados, accesorios y componentes con información clara, atención personalizada y el respaldo de chipIT.</p>
-   <div class="hero-buttons">
-    <a class="btn btn-orange" href="#catalogo">Ver catálogo ↓</a>
-    <a class="btn btn-green" id="heroWa" target="_blank">💬 WhatsApp</a>
-   </div>
+<section class="hero" id="hero">
+  <div class="ghost" aria-hidden="true">CHIP</div>
+  <div class="wrap hero-in">
+    <div>
+      <h1>Tecnología que conecta contigo</h1>
+      <p>Cargadores, cables y equipos seleccionados, con asesoría directa. Escoge lo que necesitas y cotízalo por WhatsApp en un minuto.</p>
+      <div class="cta">
+        <a class="pill-btn pill-cream" href="#catalogo">Ver catálogo ↓</a>
+        <a class="pill-btn pill-line" id="heroWa" href="#" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+      </div>
+    </div>
+    <div class="stage" aria-hidden="true">
+      <div class="logo-main"><img src="assets/img/logo.png" alt=""></div>
+      <div class="fl f1"><div id="h1"></div></div>
+      <div class="fl f2"><div id="h2"></div></div>
+      <div class="fl f3"><div id="h3"></div></div>
+      <div class="fl f4"><div id="h4"></div></div>
+    </div>
   </div>
-  <div class="hero-card">
-   <span class="badge b1">✓ Productos seleccionados</span>
-   <img class="hero-logo" src="assets/img/logo.png" alt="chipIT">
-   <span class="badge b2">⌁ Tu tienda tech</span>
+</section>
+
+<section class="ml">
+  <div class="wrap">
+    <div class="ml-card">
+      <div class="txt">
+        <h3>También estamos en Mercado Libre</h3>
+        <p>Compra nuestros productos desde tu cuenta de Mercado Libre. Allí los precios son un poco más altos, con la misma calidad de entrega.</p>
+      </div>
+      <a class="pill-btn pill-cream" id="mlBtn" href="#" target="_blank" rel="noopener">Ver tienda ↗</a>
+    </div>
   </div>
- </div>
 </section>
 
-<section class="ml-banner">
- <div class="ml-inner">
-  <div class="ml-icon">🛍️</div>
-  <div class="ml-text">
-   <span class="ml-eyebrow">Otra forma de comprar</span>
-   <h3>También estamos en Mercado Libre</h3>
-   <p>También puedes encontrar y comprar nuestros productos directo desde Mercado Libre. Allí encontrarás precios un poco más elevados, pero con la misma calidad de entrega y compromiso.</p>
+<section class="cat" id="catalogo">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><h2>Productos destacados</h2><p class="sub">Encuentra lo que necesitas y cotiza directamente por WhatsApp.</p></div>
+      <div class="count" id="count" aria-live="polite"></div>
+    </div>
+    <div class="tools">
+      <div class="chips" id="chips" role="group" aria-label="Categorías"></div>
+      <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg><input id="q" type="search" placeholder="Buscar producto o marca" aria-label="Buscar producto o marca" autocomplete="off"></label>
+      <select class="sort" id="brand" aria-label="Filtrar por marca"><option value="all">Todas las marcas</option></select>
+      <select class="sort" id="sort" aria-label="Ordenar">
+        <option value="rec">Recomendados</option><option value="low">Precio: menor a mayor</option><option value="high">Precio: mayor a menor</option><option value="az">Nombre A-Z</option>
+      </select>
+    </div>
+    <div class="products" id="grid"></div>
   </div>
-  <a class="btn btn-ml" id="mlBtn" href="#" target="_blank" rel="noopener">Ver tienda en Mercado Libre ↗</a>
- </div>
 </section>
 
-<section class="catalog" id="catalogo">
- <div class="section-title">
-  <div><h2>Productos destacados</h2><div class="sub">Encuentra lo que necesitas y cotiza directamente por WhatsApp.</div></div>
-  <div class="sub" id="count"></div>
- </div>
- <div class="tools">
-  <div class="search">
-  <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="2.2"/>
-    <path d="M16 16L21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-  </svg>
-  <input id="search" placeholder="Buscar producto, marca o especificación...">
-</div>
-  <select id="cat"><option value="all">Todas las categorías</option></select>
-  <select id="sort"><option value="new">Destacados</option><option value="low">Precio menor</option><option value="high">Precio mayor</option><option value="az">Nombre A-Z</option></select>
- </div>
- <div class="grid" id="grid"></div>
+<section class="used" id="seminuevos">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><h2>Productos seminuevos <span class="badge-used">Revisados</span></h2><p class="sub">Equipos probados, con la misma atención y respaldo, a un mejor precio.</p></div>
+      <div class="count" id="countUsed"></div>
+    </div>
+    <div class="products" id="gridUsed"></div>
+  </div>
 </section>
 
-<section class="catalog seminuevos" id="seminuevos">
- <div class="section-title">
-  <div><h2>Productos Seminuevos <span class="badge-used">Seminuevo</span></h2><div class="sub">Equipos revisados, con la misma atención y respaldo de siempre a un mejor precio.</div></div>
- </div>
- <div class="grid" id="gridSeminuevos"></div>
-</section>
-
-<section class="features" id="beneficios">
- <div class="features-inner">
-  <div class="feature">💬 <strong>Atención personalizada</strong><span>Te asesoramos para que elijas lo mejor para ti.</span></div>
-  <div class="feature">🛡️ <strong>Compra segura</strong><span>Información clara y acompañamiento durante tu compra.</span></div>
-  <div class="feature">✦ <strong>Productos seleccionados</strong><span>Trabajamos con productos y marcas confiables.</span></div>
-  <div class="feature">✓ <strong>Garantía real</strong><span>Consulta las condiciones de garantía de cada producto.</span></div>
- </div>
+<section class="feat" id="nosotros">
+  <div class="wrap feat-grid">
+    <div class="feat-i"><div class="ic"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z"/></svg></div><div><b>Atención personalizada</b><span>Te asesoramos para elegir lo que de verdad necesitas.</span></div></div>
+    <div class="feat-i"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4.4 3 7.4 7 9 4-1.6 7-4.6 7-9V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg></div><div><b>Compra segura</b><span>Información clara y acompañamiento durante toda tu compra.</span></div></div>
+    <div class="feat-i"><div class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M9 9h6v6H9zM9 2v2M15 2v2M9 20v2M15 20v2"/></svg></div><div><b>Productos seleccionados</b><span>Trabajamos con marcas confiables como UGREEN y Baseus.</span></div></div>
+    <div class="feat-i"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14.5-1.5 6.5 5-2.5 5 2.5-1.5-6.5"/></svg></div><div><b>Garantía real</b><span>Consulta las condiciones de garantía de cada producto.</span></div></div>
+  </div>
 </section>
 
 <footer id="contacto">
- <div class="foot">
-  <div><div class="brand"><img class="logo" src="assets/img/logo.png" alt="chipIT"></div><div class="small">Tecnología, accesorios y soluciones.</div></div>
-  <div class="small">© 2026 chipIT · Precios sujetos a disponibilidad.</div>
- </div>
+  <div class="wrap foot">
+    <div>
+      <div class="brand"><img src="assets/img/icon.png" alt="" width="56" height="56">ChipIT</div>
+      <p style="max-width:34ch;margin-top:12px">Tecnología, accesorios y soluciones. Precios sujetos a disponibilidad.</p>
+    </div>
+    <div><h4>Catálogo</h4><ul><li><a href="#catalogo">Productos destacados</a></li><li><a href="#seminuevos">Seminuevos</a></li><li><a href="#nosotros">Nosotros</a></li></ul></div>
+    <div><h4>Contacto</h4><ul><li><a id="footWa" href="#" target="_blank" rel="noopener">WhatsApp</a></li><li><a id="footMl" href="#" target="_blank" rel="noopener">Mercado Libre</a></li></ul></div>
+  </div>
+  <div class="wrap legal">© 2026 ChipIT</div>
 </footer>
 
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mn">
- <div class="box">
-  <button class="close" onclick="closeModal()" aria-label="Cerrar">×</button>
-  <div class="micon" id="mi"></div>
-  <h3 id="mn"></h3><p id="ms"></p><div class="mprice" id="mp"></div>
-  <a class="btn btn-green" id="mw" target="_blank">💬 Consultar por WhatsApp</a>
- </div>
-</div>
+<dialog id="dlg" aria-labelledby="dn"><div class="m" id="dm"></div></dialog>
+<button class="to-top" id="toTop" type="button" aria-label="Volver arriba"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 
 <script src="js/config.js"></script>
 <script src="js/app.js"></script>
